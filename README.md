@@ -58,15 +58,13 @@ Watching units: 9206  (refreshing every 30s, Ctrl+C to stop)
 Unit 9206 (B5):
   Status         : AVAILABLE
   Available      : True
-  Hidden         : False
+  Price (Knock)  : $1519/mo
+  Available From : 2025-07-22
+  Bed/Bath/Area  : 2bd / 2ba / 1065 sqft
   Occupied       : False
   Notice Given   : False
   Visible in UI  : False
-  Price (Knock)  : $1519/mo
   Price (UI)     : N/A
-  Available From : 2025-07-22
-  Bed/Bath/Area  : 2bd / 2ba / 1065 sqft
-  deletedByVendor: False
   Last Modified  : 2026-03-13T17:10:15.562
 
 Next refresh in 30s — Ctrl+C to stop
@@ -80,13 +78,11 @@ Press `Ctrl+C` to stop watching.
 |------------------|--------------------------------------------------------------|
 | Status           | AVAILABLE or NOT AVAILABLE                                   |
 | Available        | Raw availability flag from the API                          |
-| Hidden           | Whether the unit is hidden from listings                     |
+| Price (Knock)    | Listed rent price                                            |
+| Available From   | Date the unit becomes available                              |
+| Bed/Bath/Area    | Layout details                                               |
 | Occupied         | Whether a tenant is currently in the unit                    |
 | Notice Given     | Whether the current tenant has given notice to vacate        |
 | Visible in UI    | `True` only if occupied AND notice given (shows on website)  |
-| Price (Knock)    | Listed rent price                                            |
 | Price (UI)       | Knock-adjusted price shown in the leasing portal             |
-| Available From   | Date the unit becomes available                              |
-| Bed/Bath/Area    | Layout details                                               |
-| deletedByVendor  | Whether the layout was deleted in ResMan (property mgmt system) |
 | Last Modified    | Timestamp of the last API update for this unit               |
